@@ -2,26 +2,192 @@
 @tailwind components;
 @tailwind utilities;
 
+/* https://www.figma.com/file/dh8MNUjF3yZ08tgHCkR6Bh/pitch-our-Way?type=design&node-id=527-379&t=iZ6odR7mqz5GL0wR-0 */
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --theme-blue: #0070bd;
+  --theme-rust-blue: #004563;
+  --theme-mid-blue: #0070bd4d;
+  --theme-light-blue: #c7edfb;
+  --theme-blue-shade: #1473ae2e;
+  --theme-blue-shadelight: #1473ae2b;
+  --theme-grey: #f7f8fc;
+  --theme-grey-light: #dae4f838;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
 }
-
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: white;
+}
+.btn {
+  background: var(--theme-blue);
+  color: white;
+  padding: 0.6rem 1.8rem;
+}
+.banner {
+  height: 920px;
+  background-image: linear-gradient(
+    -192deg,
+    var(--theme-light-blue) 69.9%,
+    white 70%,
+    white 30.1%
+  );
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+.large-text {
+  font-size: 3.5rem;
+  font-weight: 800;
+}
+.btn-cta {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding-right: 3rem;
+  position: relative;
+}
+.btn-cta::after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  background-color: white;
+  height: 80%;
+  width: 2rem;
+  border-radius: 10rem;
+}
+.card-ln {
+  padding: 1rem 2rem;
+  box-shadow: -2px -2px 4px rgba(0, 0, 0, 0.1), 2px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.title-sm {
+  font-size: 0.85rem;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+.title-md {
+  color: var(--theme-rust-blue);
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.card-rounded {
+  padding: 2rem;
+  height: 230px;
+  width: 230px;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+.card-rounded h4 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--theme-blue);
+}
+.card-rounded::before {
+  content: "";
+  position: absolute;
+  left: -14px;
+  width: 100%;
+  height: 100%;
+  background: var(--theme-blue-shadelight);
+  border-radius: 9999px;
+}
+.card-rounded::after {
+  content: "";
+  position: absolute;
+  left: 14px;
+  width: 100%;
+  height: 100%;
+  background: var(--theme-blue-shade);
+  border-radius: 9999px;
+}
+.card-services {
+  background-color: var(--theme-grey);
+  padding: 1rem 1.2rem;
+  width: 100%;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.card-services::after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  height: 100%;
+  width: 100%;
+  background-color: var(--theme-grey-light);
+}
+.card-services img {
+  height: 48px;
+  width: 48px;
+  margin: auto;
+}
+.mid-banner {
+  background: var(--theme-mid-blue);
+  height: 600px;
+}
+.card-portfolio {
+  padding: 1.5rem 0.5rem;
+  width: 120px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.09);
+  border-radius: 10px;
+}
+.grid-rows-10 {
+  grid-template-rows: repeat(10, minmax(0, 1fr));
+}
+.card-deal {
+  box-shadow: -2px -2px 2px rgba(0, 0, 0, 0.1), 2px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.card-deal .card-body {
+  padding: 20px;
+}
+.btn-demo {
+  background: #00456333;
+  color: var(--theme-rust-blue);
+  width: 100%;
+  text-align: left;
+  font-size: 0.75rem;
+  font-weight: 700;
+  border-radius: 5px;
+  position: relative;
+  height: 38px;
+}
+.btn-demo::after {
+  content: '';
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  width: 35px;
+  height: 30px;
+  background: var(--theme-rust-blue);
+  border-radius: 5px;
+}
+.tag {
+  background: var(--theme-light-blue);
+  color: var(--theme-blue);
+  font-size: 0.65rem;
+  text-align: center;
+  padding: 2px 5px;
+  font-weight: 600;
+  margin-top: 7px;
 }
