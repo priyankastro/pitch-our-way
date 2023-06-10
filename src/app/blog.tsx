@@ -14,7 +14,7 @@ const Blog = () => {
                         <img src='/images/experience/e-1.png' className='w-full'></img>
                         <h3 className='font-semibold mt-5 mb-2'>Funding winter is NOT the reason why startups are not doing Series A rounds</h3>
                         <p className='text-sm font-light mb-2'>
-                            There's no doubt that liquidity in the market...
+                            There&apos;s no doubt that liquidity in the market...
                         </p>
                         <button className='tag px-3 py-1 rounded text-xs'>Read More</button>
                     </div>
@@ -22,7 +22,7 @@ const Blog = () => {
                         <img src='/images/experience/e-2.png' className='w-full'></img>
                         <h3 className='font-semibold mt-5 mb-2'>Funding winter is NOT the reason why startups are not doing Series A rounds</h3>
                         <p className='text-sm font-light mb-2'>
-                            There's no doubt that liquidity in the market...
+                            There&apos;s no doubt that liquidity in the market...
                         </p>
                         <button className='tag px-3 py-1 rounded text-xs'>Read More</button>
                     </div>
@@ -30,7 +30,7 @@ const Blog = () => {
                         <img src='/images/experience/e-1.png' className='w-full'></img>
                         <h3 className='font-semibold mt-5 mb-2'>Funding winter is NOT the reason why startups are not doing Series A rounds</h3>
                         <p className='text-sm font-light mb-2'>
-                            There's no doubt that liquidity in the market...
+                            There&apos;s no doubt that liquidity in the market...
                         </p>
                         <button className='tag px-3 py-1 rounded text-xs'>Read More</button>
                     </div>
@@ -38,7 +38,7 @@ const Blog = () => {
                         <img src='/images/experience/e-2.png' className='w-full'></img>
                         <h3 className='font-semibold mt-5 mb-2'>Funding winter is NOT the reason why startups are not doing Series A rounds</h3>
                         <p className='text-sm font-light mb-2'>
-                            There's no doubt that liquidity in the market...
+                            There&apos;s no doubt that liquidity in the market...
                         </p>
                         <button className='tag px-3 py-1 rounded text-xs'>Read More</button>
                     </div>

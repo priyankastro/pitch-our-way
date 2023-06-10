@@ -5,7 +5,7 @@ const Review = () => {
         <div className='max-w-screen-2xl mx-auto px-4 pt-10 pb-20'>
             <div className='w-[1200px] mx-auto'>
                 <h2 className='title-sm font-medium'>SEE WHAT THEY SAY</h2>
-                <h3 className='title-md mb-7'>Demonstrations of our work's quality and effectiveness.</h3>
+                <h3 className='title-md mb-7'>Demonstrations of our work&apos;s quality and effectiveness.</h3>
             </div>
             <div className='grid grid-cols-3 gap-4'>
                 <div className='card-review'>
