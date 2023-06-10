@@ -252,6 +252,7 @@ body {
   padding: 7px 0;
   border-bottom: 1px solid currentColor;
   width: 100%;
+  outline: none;
 }
 .card-location {
   background: var(--theme-coral-blue);
