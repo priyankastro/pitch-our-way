@@ -9,8 +9,8 @@ const Hero = () => {
                 <div className='grid lg:grid-cols-2 gap-4'>
                     <div className='lg:flex lg:items-center lg:h-[700px]'>
                         <div>
-                            <h1 className='font-extrabold text-xs tracking-wider rounded-3xl bg-[#ffffff99] w-fit px-[1.4rem] py-[0.4rem]'>FIND THE RIGHT WAY</h1>
-                            <p className='large-text mb-7'>Powerful deck, strategic projections, and investor-aligned fundraise.</p>
+                            <h2 className='font-extrabold text-xs tracking-wider rounded-3xl bg-[#ffffff99] w-fit px-[1.4rem] py-[0.4rem]'>FIND THE RIGHT WAY</h2>
+                            <h1 className='large-text mb-7'>Powerful deck, strategic projections, and investor-aligned fundraise.</h1>
                             <p className='text-md leading-7 mb-7 font-medium'>Our comprehensive startup support includes tailored services by consultants and investors who perfectly align with your target pitch audience, ensuring maximum effectiveness and success.</p>
                             <button className='btn btn-cta rounded-3xl'>TALK TO US!</button>
                         </div>
