@@ -10,7 +10,7 @@ const Locate = () => {
                         <button className='btn-light-blue active'>India</button>
                         <button className='btn-light-blue'>Canada</button>
                     </div>
-                    <div className='flex justify-center gap-x-2 lg:gap-x-7 mb-10'>
+                    <div className='flex justify-center gap-x-1 lg:gap-x-7 mb-10'>
                         <button className='btn-coral active'>Delhi</button>
                         <button className='btn-coral'>Chandigarh</button>
                         <button className='btn-coral'>Lucknow</button>
