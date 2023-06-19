@@ -1,6 +1,6 @@
 import React from 'react'
 import ContactForm from './contactForm'
-import Locate from './location'
+import Locate from './locate'
 
 const Contact = () => {
     return (

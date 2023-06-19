@@ -9,7 +9,7 @@ const Blog = () => {
                     <h2 className='title-sm font-medium'>BLOGS</h2>
                     <h3 className='title-md mb-7'>Discover Insights, Best Practices, and more</h3>
                 </div>
-                <div className='grid grid-cols-4 gap-6'>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6'>
                     <div className='py-5'>
                         <img src='/images/experience/e-1.png' className='w-full'></img>
                         <h3 className='font-semibold mt-5 mb-2'>Funding winter is NOT the reason why startups are not doing Series A rounds</h3>

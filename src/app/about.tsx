@@ -3,13 +3,13 @@ import React from 'react'
 const About = () => {
     return (
         <div className='max-w-screen-xl mx-auto px-4'>
-            <div className='grid grid-cols-2'>
-                <div className="col-start-2">
+            <div className='grid grid-cols-1 lg:grid-cols-2 gap-y-14 lg:gap-y-0'>
+                <div className="lg:col-start-2">
                     <div className='card-ln relative'>
-                        <div className='flex'>
-                            <img src='/images/ln-card.png'></img>
+                        <div className='lg:flex'>
+                            <img className='hidden lg:block' src='/images/ln-card.png'></img>
                             <div className='px-5'>
-                                <h4 className='my-5 font-bold text-lg'>A true product market fit</h4>
+                                <h4 className='mt-0 mb-4 lg:my-5 font-bold text-lg'>A true product market fit</h4>
                                 <p className='mb-5'>How to know if you have it...</p>
                                 <p>#productmarketfit #gotomarket #startups</p>
                             </div>
@@ -22,7 +22,7 @@ const About = () => {
                     <h3 className='title-md'>What Makes Us Credible as a Start-Up Consultant</h3>
                 </div>
             </div>
-            <div className='grid grid-cols-4 gap-4 my-20'>
+            <div className='grid grid-cols-2 lg:grid-cols-4 gap-4 my-10 lg:my-20'>
                 <div className='card-rounded'>
                     <div className='w-full'>
                         <h4>750+</h4>

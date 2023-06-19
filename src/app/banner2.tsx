@@ -2,9 +2,9 @@ import React from 'react'
 
 const Banner2 = () => {
     return (
-        <div className='mid-banner my-20 h-[400px]'>
+        <div className='mid-banner my-20 lg:h-[400px]'>
             <div className='max-w-screen-2xl mx-auto px-4 relative'>
-                <div className='grid grid-cols-5 gap-4 content-center h-[400px]'>
+                <div className='grid grid-cols-1 lg:grid-cols-5 gap-4 content-center lg:h-[400px]'>
                     <div className='relative'>
                         <img src='/images/logo.png' className='float-right mr-5' />
                         <img src='/images/wave.png' className='absolute bottom-[5rem] right-[1.85rem]' />
@@ -17,7 +17,7 @@ const Banner2 = () => {
                         <button className='mt-8 btn rounded-md'>Get Started</button>
                     </div>
                 </div>
-                <img src='/images/banner-3.png' className='absolute top-0 right-0 h-[400px]' />
+                <img src='/images/banner-3.png' className='lg:absolute top-0 right-0 lg:h-[400px]' />
             </div>
         </div>
     )

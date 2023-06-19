@@ -5,7 +5,7 @@ const Recognition = () => {
         <div className='max-w-screen-lg mx-auto px-4 py-20'>
             <h2 className='title-sm font-medium'>BRAND RECOGNITION</h2>
             <h3 className='title-md mb-7'>We prominently featured!</h3>
-            <div className='grid grid-cols-3 gap-4'>
+            <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
                 <div className='px-5 py-10'>
                     <img src='/images/portfolio/p-2.png' className='w-full'></img>
                     <h3 className='text-xl font-semibold mt-3 mb-7 blue-underline'>Your Story</h3>

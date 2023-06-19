@@ -5,7 +5,7 @@ const Deals = () => {
         <div className='max-w-screen-lg mx-auto px-4 py-20'>
             <h3 className='title-md mb-7 text-center'>Live Deals</h3>
             <p className='text-center'>Access highly-vetted investment opportunities in startups across the various sectors.</p>
-            <div className='grid grid-cols-3 gap-4 my-10'>
+            <div className='grid grid-cols-1 md:grid-cols-3 gap-4 my-10'>
                 <div className='card-deal'>
                     <img src='/images/deals/d-1.png'></img>
                     <div className='card-body'>

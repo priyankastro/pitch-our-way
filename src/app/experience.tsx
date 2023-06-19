@@ -5,7 +5,7 @@ const Experience = () => {
         <div className='max-w-screen-lg mx-auto px-4 py-20'>
             <h2 className='title-sm font-medium'>EXPERIENCE THAT MATTERS</h2>
             <h3 className='title-md mb-7'> Looking to raise your next funding round? Enlist our expertise to transform your startup journey into a captivating narrative. Let&apos;s begin!</h3>
-            <div className='grid grid-cols-3 gap-16'>
+            <div className='grid grid-cols-1 md:grid-cols-3 gap-16'>
                 <div className='py-5'>
                     <img src='/images/experience/e-1.png' className='w-full'></img>
                     <h3 className='font-semibold mt-5 mb-2'>$8M, Series A</h3>
