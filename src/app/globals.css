@@ -330,6 +330,9 @@ footer li::before {
   .btn-coral {
     padding: 0.4rem 0.8rem;
   }
+  .card-location {
+    width: 100% !important;
+  }
 }
 /* lg */
 @media (min-width: 1024px) {
