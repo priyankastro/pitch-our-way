@@ -19,7 +19,7 @@ const Navbar = () => {
                     <div className={`${clsx({ ['hidden']: toggle })} lg:hidden w-full bg-[#0000007d] h-[95vh] absolute top-[78px] z-10`}></div>
                     <div className={`${clsx({ ['hidden']: toggle })} lg:flex lg:flex-row font-medium ml-auto lg:space-x-14 w-1/2 lg:w-auto text-center lg:text-right h-[95vh] lg:h-auto absolute lg:relative top-[78px] lg:top-0 right-0 z-10 bg-white lg:bg-transparent px-5 lg:px-0`}>
                             <div className='menu-item py-5'>
-                                <a href="/" className="">Home</a>
+                                <a href="/#home" className="">Home</a>
                             </div>
                             <div className='menu-item py-5'>
                                 <a href="/#about-us" className="">About Us</a>
