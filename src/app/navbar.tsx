@@ -18,7 +18,7 @@ const Navbar = () => {
                     </div>
                     <div className={`${clsx({ ['hidden']: toggle })} lg:hidden w-full bg-[#0000007d] h-screen fixed top-0 z-10`}></div>
                     <div className={`${clsx({ ['hidden']: toggle })} lg:flex lg:flex-row font-medium ml-auto lg:space-x-14 w-1/2 lg:w-auto text-left lg:text-right h-screen lg:h-auto fixed lg:relative top-0 right-0 z-10 bg-white lg:bg-transparent px-5 lg:px-0`}>
-                        <div className={`${clsx({ ['hidden']: toggle })} menu-item py-2 h-[78px]`}>
+                        <div className={`${clsx({ ['hidden']: toggle })} menu-item py-5 h-[78px]`}>
                             <button className='float-right' onClick={() => setToggle(!toggle)}><img src='/images/btn-close.png'/></button>
                         </div>
                         <div className='menu-item py-5'>
